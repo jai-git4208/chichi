@@ -12,7 +12,7 @@ In a world of cold screens and rigid devices, CHICHI brings warmth and emotion t
 
 - **Gesture-Controlled** - No buttons needed, just slap or tap
 - **Adorable Design** - Shaped like a chick hatching from an egg
-- **8 RGB LEDs** - WS2812B addressable LEDs for smooth animations
+- **RGB LEDs** - WS2812B addressable LEDs for smooth animations
 - **Portable & Rechargeable** - Built-in Li-Po battery with USB-C charging
 - **Smart Interactions**:
   - **Single Slap** - Change colors
