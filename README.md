@@ -25,24 +25,23 @@ In a world of cold screens and rigid devices, CHICHI brings warmth and emotion t
 
 ![CHICHI Schematic](resources/chichi-schematic.png)
 
-The circuit is built around the ESP32-C3 Mini microcontroller with:
-- 8x WS2812B addressable RGB LEDs in circular arrangement
-- Piezo disc sensor for slap/tap detection
-- TP4056 Li-Po charging module (USB-C)
-- 5V boost converter for LED power
-- Signal conditioning with 1MΩ resistor and capacitive filtering
-- Battery management and power regulation
+The circuit is built around the ESP32-C3 Supermini microcontroller with:
+- 2x WS2812B addressable RGB LEDs in series (D5 → D6)
+- Piezo disc sensor connected directly to ESP32 GPIO
+- Battery Charger 1A module with USB input
+- LiPo battery providing power to entire system
+- Simple, compact design with minimal external components
 
 ## PCB Design
 
 ![CHICHI PCB](resources/chichi-pcb.png)
 
 Custom PCB designed for compact integration inside the egg shell:
-- Circular LED ring layout for even light distribution
-- ESP32-C3 Mini headers
-- Battery connector and charging circuit
-- Piezo sensor pads with signal conditioning
-- 330Ω data resistor and 470µF smoothing capacitor
+- 2 WS2812B LEDs (D5 and D6) for efficient lighting
+- ESP32-C3 Supermini module headers
+- Battery Charger 1A module integration
+- Piezo sensor connection pads
+- LiPo battery connector
 
 ## Case Design
 
@@ -59,18 +58,14 @@ The 3D-printed case features:
 
 | Component | Quantity | Notes |
 |-----------|----------|-------|
-| ESP32-C3 Mini | 1 | Microcontroller with Wi-Fi & BLE |
-| WS2812B RGB LED | 8 | Addressable 5V LEDs |
+| ESP32-C3 Supermini | 1 | Microcontroller with Wi-Fi & BLE |
+| WS2812B RGB LED | 2 | Addressable LEDs (D5, D6) |
 | Piezo Disc Sensor | 1 | 27-35mm diameter |
-| TP4056 Charging Module | 1 | USB-C Li-Po charger |
-| 5V Boost Converter | 1 | Step-up from 3.7V battery |
+| Battery Charger 1A Module | 1 | USB charging circuit |
 | Li-Po Battery | 1 | 3.7V, 500-1200 mAh |
-| 1MΩ Resistor | 1 | Piezo signal conditioning |
-| 330Ω Resistor | 1 | LED data line |
-| 470µF Capacitor | 1 | Power smoothing |
-| Custom PCB | 1 | Circular LED ring board |
+| Custom PCB | 1 | Main circuit board |
 | 3D Printed Shell | 1 set | Top + Bottom egg pieces |
-| USB-C Cable | 1 | For charging |
+| USB Cable | 1 | For charging |
 
 ## Interaction Modes
 
@@ -95,32 +90,33 @@ When left alone, CHICHI breathes with a soft, warm glow — making it feel alive
 
 ### Power System
 - **Battery**: 3.7V Li-Po (500-1200 mAh)
-- **Charging**: TP4056 module via USB-C (5V input)
+- **Charging**: Battery Charger 1A module via USB (5V input)
 - **Runtime**: 3-6 hours depending on brightness
-- **Boost Converter**: 5V output for LEDs and ESP32
+- **Power Distribution**: Direct battery power to ESP32 and LEDs
 - **Deep Sleep**: Ultra-low power consumption when idle
 
 ### Microcontroller
-- **Model**: ESP32-C3 Mini
-- **Core**: RISC-V single-core
+- **Model**: ESP32-C3 Supermini
+- **Core**: RISC-V single-core (32-bit)
 - **Features**: Wi-Fi 802.11b/g/n, Bluetooth LE 5.0
-- **Programming**: Arduino IDE support
+- **Programming**: Arduino IDE / CircuitPython support
 - **GPIO**: Digital I/O for LEDs and piezo sensor
 - **Power**: 3.3V operation with onboard regulation
 
 ### Lighting Engine
-- **LEDs**: 8x WS2812B addressable RGB
-- **Arrangement**: Circular ring for 360° glow
-- **Control**: Single data line (DIN)
+- **LEDs**: 2x WS2812B addressable RGB (D5, D6)
+- **Arrangement**: Series connection for synchronized lighting
+- **Control**: Single data line from ESP32 GPIO
+- **Voltage**: 5V LEDs powered by battery
 - **Effects**: Solid colors, transitions, breathing, animations
 - **Brightness**: Software-controlled PWM
 
 ### Sensor System
-- **Type**: Piezo disc vibration sensor
+- **Type**: Piezo disc vibration sensor (piezo2)
 - **Size**: 27-35mm diameter
+- **Connection**: Direct to ESP32 GPIO
 - **Detection**: Tap, slap, and pressure events
-- **Signal**: Analog input with debouncing
-- **Sensitivity**: Tunable via resistor value
+- **Signal Processing**: Software debouncing and threshold detection
 
 
 
