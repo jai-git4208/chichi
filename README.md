@@ -58,7 +58,7 @@ The 3D-printed case features:
 
 | Component | Quantity | Notes |
 |-----------|----------|-------|
-| ESP32-C3 Supermini | 1 | Microcontroller with Wi-Fi & BLE |
+| ESP32-C3 Supermini | 1 | Microcontroller |
 | WS2812B RGB LED | 2 | Addressable LEDs (D5, D6) |
 | Piezo Disc Sensor | 1 | 27-35mm diameter |
 | Battery Charger 1A Module | 1 | USB charging circuit |
