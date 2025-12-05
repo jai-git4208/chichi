@@ -12,7 +12,7 @@ In a world of cold screens and rigid devices, CHICHI brings warmth and emotion t
 
 - **Gesture-Controlled** - No buttons needed, just slap or tap
 - **Adorable Design** - Shaped like a chick hatching from an egg
-- **8 RGB LEDs** - WS2812B addressable LEDs for smooth animations
+- **RGB LEDs** - WS2812B addressable LEDs for smooth animations
 - **Portable & Rechargeable** - Built-in Li-Po battery with USB-C charging
 - **Smart Interactions**:
   - **Single Slap** - Change colors
@@ -59,7 +59,7 @@ The 3D-printed case features:
 
 | Component | Quantity | Notes |
 |-----------|----------|-------|
-| ESP32-C3 Supermini | 1 | Microcontroller with Wi-Fi & BLE |
+| ESP32-C3 Supermini | 1 | Microcontroller |
 | WS2812B RGB LED | 2 | Addressable LEDs (D5, D6) |
 | Piezo Disc Sensor | 1 | 27-35mm diameter |
 | Battery Charger 1A Module | 1 | USB charging circuit |
