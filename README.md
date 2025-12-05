@@ -35,7 +35,7 @@ The circuit is built around the ESP32-C3 Supermini microcontroller with:
 ## PCB Design
 
 ![CHICHI PCB](resources/chichi-pcb.png)
-
+![CHICHI PCB](resources/chichi-3d-pcb.png)
 Custom PCB designed for compact integration inside the egg shell:
 - 2 WS2812B LEDs (D5 and D6) for efficient lighting
 - ESP32-C3 Supermini module headers
@@ -45,7 +45,7 @@ Custom PCB designed for compact integration inside the egg shell:
 
 ## Case Design
 
-![CHICHI Case Assembly](resources/chichi-overview.png)
+![CHICHI Case Assembly](resources/chichi-3d.png)
 
 The 3D-printed case features:
 - Translucent white PLA/PETG for frosted glow effect
@@ -53,6 +53,7 @@ The 3D-printed case features:
 - Internal cavity for PCB and battery
 - Smooth surface finish for even light diffusion
 - Compact size: 60-90mm tall (customizable)
+- added a cyylinder to be able to open case easily.
 
 ## Bill of Materials (BOM)
 
