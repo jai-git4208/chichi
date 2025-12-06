@@ -78,6 +78,7 @@ Here's your updated BOM with prices and links:
 - **$32.52 - $33.11** (USD)
 
 **Note:** Currency conversion based on approximate rate of ₹84 = $1 USD
+BOM csv: [here!](https://github.com/jai-git4208/chichi/blob/main/resources/bom.csv)
 
 ## Interaction Modes
 
