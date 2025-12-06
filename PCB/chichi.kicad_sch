@@ -309,9 +309,58 @@
 				)
 			)
 			(symbol "LiPo_Battery_0_1"
-				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 8.89 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -351,6 +400,130 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "chargerr:MT3608_Boost_Converter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MT3608_Boost_Converter_1_1"
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -6.35 180)
+					(length 2.54)
+					(name "VOUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -8.89 180)
+					(length 2.54)
+					(name "VOUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -524,6 +697,119 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "chargerr:piezo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "piezo"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "piezo_0_1"
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "piezo_1_1"
+				(pin output line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -6.35 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1010,106 +1296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "piezo_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "piezo"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "piezo_1_0_1"
-				(circle
-					(center 0 -5.08)
-					(radius 4.0161)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "piezo_1_1_1"
-				(pin output line
-					(at 6.35 -3.81 180)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 -6.35 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 243.84 123.19)
@@ -1153,16 +1339,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 95.25) (xy 251.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033dff87-6d97-4244-b556-a3f4260f22fa")
-	)
-	(wire
-		(pts
 			(xy 191.77 104.14) (xy 207.01 104.14)
 		)
 		(stroke
@@ -1193,23 +1369,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 255.27 95.25)
+			(xy 189.23 74.93) (xy 189.23 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c121356-44c0-4918-8169-4999cca2943a")
-	)
-	(wire
-		(pts
-			(xy 275.59 100.33) (xy 269.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215628cd-d5c2-4283-b1f6-8784d2634bd5")
+		(uuid "1dda76ad-4f50-4882-a2a7-f7740eb1136d")
 	)
 	(wire
 		(pts
@@ -1243,16 +1409,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 189.23 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d70a16-a84a-4107-92c6-15b8f2e78e6b")
-	)
-	(wire
-		(pts
 			(xy 176.53 127) (xy 243.84 127)
 		)
 		(stroke
@@ -1273,13 +1429,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 105.41) (xy 255.27 105.41)
+			(xy 261.62 106.68) (xy 261.62 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c68cd79-1842-4def-85e2-bc8d2b680cc9")
+		(uuid "3beea171-f6bb-4e49-960f-18093fada830")
 	)
 	(wire
 		(pts
@@ -1293,7 +1449,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 137.16) (xy 271.78 102.87)
+			(xy 247.65 72.39) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e94fa66-05de-442f-8dc9-93d4ec57caca")
+	)
+	(wire
+		(pts
+			(xy 278.13 137.16) (xy 278.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1303,13 +1469,43 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 101.6) (xy 243.84 101.6)
+			(xy 248.92 104.14) (xy 259.08 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74ab1f59-e00d-42bf-abfb-812342b282dd")
+		(uuid "6ee60c11-28f5-4b21-8011-7862873b6e12")
+	)
+	(wire
+		(pts
+			(xy 275.59 107.95) (xy 280.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80015a92-73d0-4696-bdd7-116f84b2445a")
+	)
+	(wire
+		(pts
+			(xy 275.59 110.49) (xy 278.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a86d5d-32c4-4b41-b614-93504b4dcaa0")
+	)
+	(wire
+		(pts
+			(xy 254 113.03) (xy 261.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d17712-c451-457d-afee-5cc658ca08ab")
 	)
 	(wire
 		(pts
@@ -1333,13 +1529,53 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 275.59 144.78)
+			(xy 278.13 146.05) (xy 280.67 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92da3a8f-3c0d-478f-a6f0-177f4f80d78c")
+	)
+	(wire
+		(pts
+			(xy 245.11 76.2) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cded401-7946-43ea-b0a5-2f25e8767dcd")
+	)
+	(wire
+		(pts
+			(xy 243.84 101.6) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e588ea-bf6f-4703-a98c-493bb3405659")
+	)
+	(wire
+		(pts
+			(xy 254 109.22) (xy 254 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc5ca04-a6db-4e22-848d-27c2e6a2b758")
+	)
+	(wire
+		(pts
+			(xy 247.65 72.39) (xy 247.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb277ba-0854-4784-8ca9-706a70ab9160")
 	)
 	(wire
 		(pts
@@ -1363,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 137.16) (xy 271.78 137.16)
+			(xy 204.47 137.16) (xy 278.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1383,17 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 102.87) (xy 269.24 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf17cef9-4182-4a1d-ac9c-cd75c50191cf")
-	)
-	(wire
-		(pts
-			(xy 275.59 144.78) (xy 275.59 100.33)
+			(xy 280.67 146.05) (xy 280.67 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1413,23 +1639,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 95.25) (xy 251.46 105.41)
+			(xy 245.11 72.39) (xy 245.11 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d540299d-ba9d-4c92-8c81-610bcdc48659")
+		(uuid "d3d0d6c6-07ac-499c-a102-33e63d08445c")
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 243.84 76.2)
+			(xy 259.08 97.79) (xy 247.65 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbfb7b81-b945-4260-b8e6-ba8e0cf3d61a")
+		(uuid "d7feafe5-3ac7-4e37-9983-12d76c9e924b")
 	)
 	(wire
 		(pts
@@ -1440,6 +1666,16 @@
 			(type default)
 		)
 		(uuid "deff407e-191d-4ffe-8d8a-bb44a0e75eaa")
+	)
+	(wire
+		(pts
+			(xy 254 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6eed8f-6877-48da-8ce4-434cc4e5300f")
 	)
 	(wire
 		(pts
@@ -1471,6 +1707,36 @@
 		)
 		(uuid "e45c002b-b428-405b-b2f8-b4ceef020070")
 	)
+	(wire
+		(pts
+			(xy 278.13 144.78) (xy 204.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0a696e-8429-41df-b08c-eb832b5264cf")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 259.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcc57f1-d262-4676-a67d-dad45a84efbd")
+	)
+	(wire
+		(pts
+			(xy 278.13 146.05) (xy 278.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc596ad1-e579-4a4c-8b3f-cfcdb96f2539")
+	)
 	(symbol
 		(lib_id "chargerr:LiPo_Battery")
 		(at 195.58 140.97 0)
@@ -1480,7 +1746,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54fb166b-3e44-484c-8f18-eab523137666")
+		(uuid "4e3b9032-e5ac-412b-8461-8bb3846a13d0")
 		(property "Reference" "U3"
 			(at 195.58 140.97 0)
 			(effects
@@ -1490,8 +1756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LiPo Battery"
-			(at 195.58 133.35 0)
+		(property "Value" "~"
+			(at 201.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,15 +1792,83 @@
 			)
 		)
 		(pin "2"
-			(uuid "70cf60e0-2e16-435e-bc3b-e801dbbf7136")
+			(uuid "5958ad27-ca1a-49f8-80ea-573cb39cf8c0")
 		)
 		(pin "1"
-			(uuid "2e5e3daf-43ce-4637-8049-4514a0594ffc")
+			(uuid "1f14c492-32fb-4280-89f6-ecf5df22e8e3")
 		)
 		(instances
 			(project ""
 				(path "/7445f0f2-6d11-4fb0-a479-d765a424d1f2"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chargerr:piezo")
+		(at 182.88 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d7611a-071c-40c6-8693-d350844a00f1")
+		(property "Reference" "piezo1"
+			(at 186.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "charger:piezo"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ee57a08-3d7c-45a3-ba34-6b4ced9d72cf")
+		)
+		(pin "1"
+			(uuid "e14f45be-0592-4de2-b131-c9a1649b950d")
+		)
+		(instances
+			(project ""
+				(path "/7445f0f2-6d11-4fb0-a479-d765a424d1f2"
+					(reference "piezo1")
 					(unit 1)
 				)
 			)
@@ -1617,7 +1951,7 @@
 	)
 	(symbol
 		(lib_id "chargerr:TP4056_Module")
-		(at 265.43 107.95 180)
+		(at 271.78 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1626,7 +1960,7 @@
 		(fields_autoplaced yes)
 		(uuid "63bf9c6e-45dc-47eb-b5fa-f8170a041ac5")
 		(property "Reference" "U2"
-			(at 265.43 107.95 0)
+			(at 271.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1969,7 @@
 			)
 		)
 		(property "Value" "Charger_Module"
-			(at 262.255 95.25 0)
+			(at 268.605 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1977,7 @@
 			)
 		)
 		(property "Footprint" "charger:TP4056-18650"
-			(at 265.43 107.95 0)
+			(at 271.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 107.95 0)
+			(at 271.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 107.95 0)
+			(at 271.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,34 +2031,34 @@
 		)
 	)
 	(symbol
-		(lib_name "piezo_1")
-		(lib_id "chargerr:piezo")
-		(at 182.88 66.04 0)
+		(lib_id "chargerr:MT3608_Boost_Converter")
+		(at 251.46 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c7b8708-c271-45de-9ead-f7847a58537b")
-		(property "Reference" "piezo2"
-			(at 182.88 62.23 0)
+		(uuid "8e420072-5e8e-4060-adac-0e3feb28faf4")
+		(property "Reference" "U4"
+			(at 251.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 182.88 64.77 0)
+		(property "Value" "MT3608"
+			(at 251.46 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "charger:piezo"
-			(at 182.88 66.04 0)
+		(property "Footprint" "charger:MT3608 Boost Converter"
+			(at 251.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +2067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 66.04 0)
+			(at 251.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +2076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 66.04 0)
+			(at 251.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,16 +2084,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3a3bdb71-7a83-4bff-b11e-d7d96a3f59de")
-		)
 		(pin "2"
-			(uuid "78fe0bb4-be83-4b05-b2c4-d781657f167a")
+			(uuid "aebdb7ae-69d9-48ee-85b7-b14e768c8216")
+		)
+		(pin "3"
+			(uuid "14a6b11f-200b-4adb-ab10-612bf36b23b8")
+		)
+		(pin "4"
+			(uuid "2fff8e97-f467-4835-850d-a9c75830a11a")
+		)
+		(pin "1"
+			(uuid "648d3789-7438-4c17-8399-c0674b5d0d86")
 		)
 		(instances
 			(project ""
 				(path "/7445f0f2-6d11-4fb0-a479-d765a424d1f2"
-					(reference "piezo2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
