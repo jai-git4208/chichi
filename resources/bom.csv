@@ -1,0 +1,14 @@
+Component,Quantity,Price_INR,Price_USD,Link,Notes
+ESP32-C3 Supermini,1,400,4.76,https://quartzcomponents.com/products/esp32-c3-super-mini-development-board-with-soldered-headers-hw-466ab?variant=45727228887274,Microcontroller (with shipping)
+WS2812B RGB LED,2,360,4.29,https://www.amazon.in/gp/product/B09PBCQTNR/ref=ewc_pr_img_6?smid=A2JDRZEGU1IDE2&psc=1,Addressable LEDs (D5 D6)
+Piezo Disc Sensor,1,100,1.19,https://www.amazon.in/gp/product/B0CZLLN13J/ref=ox_sc_act_title_1?smid=A1UUD7CBBVVXIG&psc=1,27-35mm diameter
+TP4056 Type-C Charging Module,1,162,1.93,https://www.flipkart.com/robo-ocean-charging-module-tp4056-type-c-pack-5-1a-li-ion-current-protection-electronic-components-hobby-kit/p/itm6bd0ee4c5a1a8?pid=EHKH97UJFKPKW5HZ&lid=LSTEHKH97UJFKPKW5HZFH99NA&marketplace=FLIPKART,1A USB charging circuit (with shipping)
+Li-Po Battery 603443,1,299,3.56,https://www.amazon.in/gp/product/B0D54MCMKC/ref=ewc_pr_img_3?smid=A3QQB9C2QXM7ZJ&psc=1,3.7V 800mAh 2.96Wh
+MT3608 Boost Converter,1,100,1.19,https://www.amazon.in/Adjustable-converter-Regulator-Transformer-Controller/dp/B08LTLV74H/,DC-DC step-up for stable 5V output
+Custom PCB,1,840,10.00,-,Main circuit board
+3D Printed Shell,1,420,5.00,-,Top + Bottom egg pieces
+USB Cable,1,75,0.89,-,Type-C for charging (avg price)
+
+TOTAL,,,,,
+Minimum Cost,,2731,32.52,,
+Maximum Cost,,2781,33.11,,
