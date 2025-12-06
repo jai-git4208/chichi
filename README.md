@@ -55,18 +55,29 @@ The 3D-printed case features:
 - Compact size: 60-90mm tall (customizable)
 - added a cyylinder to be able to open case easily.
 
+Here's your updated BOM with prices and links:
+
 ## Bill of Materials (BOM)
 
-| Component | Quantity | Notes |
-|-----------|----------|-------|
-| ESP32-C3 Supermini | 1 | Microcontroller |
-| WS2812B RGB LED | 2 | Addressable LEDs (D5, D6) |
-| Piezo Disc Sensor | 1 | 27-35mm diameter |
-| Battery Charger 1A Module | 1 | USB charging circuit |
-| Li-Po Battery | 1 | 3.7V, 500-1200 mAh |
-| Custom PCB | 1 | Main circuit board |
-| 3D Printed Shell | 1 set | Top + Bottom egg pieces |
-| USB Cable | 1 | For charging |
+| Component | Quantity | Price (INR) | Price (USD) | Link | Notes |
+|-----------|----------|-------------|-------------|------|-------|
+| ESP32-C3 Supermini | 1 | ₹400 | $4.76 | [Quartz Components](https://quartzcomponents.com/products/esp32-c3-super-mini-development-board-with-soldered-headers-hw-466ab?variant=45727228887274) | Microcontroller (with shipping) |
+| WS2812B RGB LED | 2 | ₹360 | $4.29 | [Amazon India](https://www.amazon.in/gp/product/B09PBCQTNR/ref=ewc_pr_img_6?smid=A2JDRZEGU1IDE2&psc=1) | Addressable LEDs (D5, D6) |
+| Piezo Disc Sensor | 1 | ₹100 | $1.19 | [Amazon India](https://www.amazon.in/gp/product/B0CZLLN13J/ref=ox_sc_act_title_1?smid=A1UUD7CBBVVXIG&psc=1) | 27-35mm diameter |
+| TP4056 Type-C Charging Module | 1 | ₹162 | $1.93 | [Flipkart](https://www.flipkart.com/robo-ocean-charging-module-tp4056-type-c-pack-5-1a-li-ion-current-protection-electronic-components-hobby-kit/p/itm6bd0ee4c5a1a8?pid=EHKH97UJFKPKW5HZ&lid=LSTEHKH97UJFKPKW5HZFH99NA&marketplace=FLIPKART) | 1A USB charging circuit (with shipping) |
+| Li-Po Battery 603443 | 1 | ₹299 | $3.56 | [Amazon India](https://www.amazon.in/gp/product/B0D54MCMKC/ref=ewc_pr_img_3?smid=A3QQB9C2QXM7ZJ&psc=1) | 3.7V, 800mAh, 2.96Wh |
+| MT3608 Boost Converter | 1 | ₹100 | $1.19 | [Amazon India](https://www.amazon.in/Adjustable-converter-Regulator-Transformer-Controller/dp/B08LTLV74H/) | DC-DC step-up for stable 5V output |
+| Custom PCB | 1 | ₹840 | $10.00 | - | Main circuit board |
+| 3D Printed Shell | 1 set | ₹420 | $5.00 | - | Top + Bottom egg pieces |
+
+
+---
+
+### **Total Estimated Cost:**
+- **₹2,731 - ₹2,781** (INR)
+- **$32.52 - $33.11** (USD)
+
+**Note:** Currency conversion based on approximate rate of ₹84 = $1 USD
 
 ## Interaction Modes
 
