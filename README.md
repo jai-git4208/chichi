@@ -58,24 +58,25 @@ The 3D-printed case features:
 Here's your updated BOM with prices and links:
 
 ## Bill of Materials (BOM)
-
 | Component | Quantity | Price (INR) | Price (USD) | Link | Notes |
 |-----------|----------|-------------|-------------|------|-------|
-| ESP32-C3 Supermini | 1 | ₹400 | $4.76 | [Quartz Components](https://quartzcomponents.com/products/esp32-c3-super-mini-development-board-with-soldered-headers-hw-466ab?variant=45727228887274) | Microcontroller (with shipping) |
-| WS2812B RGB LED | 2 | ₹360 | $4.29 | [Amazon India](https://www.amazon.in/gp/product/B09PBCQTNR/ref=ewc_pr_img_6?smid=A2JDRZEGU1IDE2&psc=1) | Addressable LEDs (D5, D6) |
-| Piezo Disc Sensor | 1 | ₹100 | $1.19 | [Amazon India](https://www.amazon.in/gp/product/B0CZLLN13J/ref=ox_sc_act_title_1?smid=A1UUD7CBBVVXIG&psc=1) | 27-35mm diameter |
-| TP4056 Type-C Charging Module | 1 | ₹162 | $1.93 | [Flipkart](https://www.flipkart.com/robo-ocean-charging-module-tp4056-type-c-pack-5-1a-li-ion-current-protection-electronic-components-hobby-kit/p/itm6bd0ee4c5a1a8?pid=EHKH97UJFKPKW5HZ&lid=LSTEHKH97UJFKPKW5HZFH99NA&marketplace=FLIPKART) | 1A USB charging circuit (with shipping) |
-| Li-Po Battery 603443 | 1 | ₹299 | $3.56 | [Amazon India](https://www.amazon.in/gp/product/B0D54MCMKC/ref=ewc_pr_img_3?smid=A3QQB9C2QXM7ZJ&psc=1) | 3.7V, 800mAh, 2.96Wh |
-| MT3608 Boost Converter | 1 | ₹100 | $1.19 | [Amazon India](https://www.amazon.in/Adjustable-converter-Regulator-Transformer-Controller/dp/B08LTLV74H/) | DC-DC step-up for stable 5V output |
-| Custom PCB | 1 | ₹840 | $10.00 | - | Main circuit board |
-| 3D Printed Shell | 1 set | ₹420 | $5.00 | - | Top + Bottom egg pieces |
+| ESP32-C3 Super Mini Dev Board | 1 | ₹249 | ~$3.00 | https://hubtronics.in/esp32-c3-super-mini-unsoldered?gad_source=1&gad_campaignid=22872103083&gbraid=0AAAAAD07y2daEUBDnuhJB0-3Eric8vzjN&gclid=CjwKCAiAl-_JBhBjEiwAn3rN7YRKA1vZ0fO1eb1FXJZS9X17QkaaFzzzENmHHNqNpg5i2XCcV6xIixoClmYQAvD_BwE | USB-C ESP32-C3 (shipping included) |
+| WS2812B 5050 RGB LED Module | 2 | ₹16 | ~$0.19 | https://robu.in/product/sme-ws2812b-2020-addressable-rgb-pixel-led-worldsemi/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWdVZtRFmuZUVUdB3Vk_Cy1_z&gclid=CjwKCAiAl-_JBhBjEiwAn3rN7VQExptweZt_n9pNyBL5iHyxQKYkiyiE-ruWIlestUp_9RDfLFDnmhoCBksQAvD_BwE | Individually addressable LEDs |
+| Piezoelectric Disc Sensor | 1 | ₹49 | ~$0.59 | https://electronicspices.com/product/35-mm-diameter-piezoelectric-sensor-plate-pack-of-5pcs | Very cheap single piezo disc |
+| TP4056 Type-C Charging Module | 1 | ₹40 | ~$0.48 | https://robocraze.com/products/tp4056-battery-charger-c-type-module-with-protection-1?_pos=1&_sid=7bd707613&_ss=r | 1A Li-ion charger with protection |
+| Li-Po Battery 3.7V 800mAh | 1 | ₹150 | ~$1.81 | https://quartzcomponents.com/products/3-7v-800mah-li-po-rechargeable-battery?_pos=1&_sid=3c18f12c0&_ss=r | Same capacity, much cheaper |
+| MT3608 DC-DC Boost Converter | 1 | ₹35 | ~$0.42 | https://robokits.co.in/power-supply/dc-dc-power-supply/dc-dc-boost-25v-2a-mt3608 | Step-up to stable 5V |
+| Custom PCB | 1 | ₹840 | ~$10.12 | - |  |
+| 3D Printed Shell | 1 set | ₹420 | ~$5.06 | - |  |
+
+
 
 
 ---
 
 ### **Total Estimated Cost:**
-- **₹2,731 - ₹2,781** (INR)
-- **$32.52 - $33.11** (USD)
+- **₹1,799** (INR)
+- **$21.67** (USD)
 
 **Note:** Currency conversion based on approximate rate of ₹84 = $1 USD
 BOM csv: [here!](https://github.com/jai-git4208/chichi/blob/main/resources/bom.csv)
