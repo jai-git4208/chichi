@@ -1,0 +1,9 @@
+Component,Quantity,Price (INR),Price (USD),Link,Notes
+ESP32-C3 Super Mini Dev Board,1,249,~$3.00,https://hubtronics.in/esp32-c3-super-mini-unsoldered?gad_source=1&gad_campaignid=22872103083&gbraid=0AAAAAD07y2daEUBDnuhJB0-3Eric8vzjN&gclid=CjwKCAiAl-_JBhBjEiwAn3rN7YRKA1vZ0fO1eb1FXJZS9X17QkaaFzzzENmHHNqNpg5i2XCcV6xIixoClmYQAvD_BwE,USB-C ESP32-C3 (shipping included)\
+WS2812B 5050 RGB LED Module,2,16,~$0.19,https://robu.in/product/sme-ws2812b-2020-addressable-rgb-pixel-led-worldsemi/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWdVZtRFmuZUVUdB3Vk_Cy1_z&gclid=CjwKCAiAl-_JBhBjEiwAn3rN7VQExptweZt_n9pNyBL5iHyxQKYkiyiE-ruWIlestUp_9RDfLFDnmhoCBksQAvD_BwE,Individually addressable LEDs\
+Piezoelectric Disc Sensor,1,49,~$0.59,https://electronicspices.com/product/35-mm-diameter-piezoelectric-sensor-plate-pack-of-5pcs,Very cheap single piezo disc\
+TP4056 Type-C Charging Module,1,40,~$0.48,https://robocraze.com/products/tp4056-battery-charger-c-type-module-with-protection-1?_pos=1&_sid=7bd707613&_ss=r,1A Li-ion charger with protection\
+Li-Po Battery 3.7V 800mAh,1,150,~$1.81,https://quartzcomponents.com/products/3-7v-800mah-li-po-rechargeable-battery?_pos=1&_sid=3c18f12c0&_ss=r,Same capacity much cheaper\
+MT3608 DC-DC Boost Converter,1,35,~$0.42,https://robokits.co.in/power-supply/dc-dc-power-supply/dc-dc-boost-25v-2a-mt3608,Step-up to stable 5V\
+Custom PCB,1,840,~$10.12,-,JlC PCB
+3D Printed Shell,1,420,~$5.06,-,
